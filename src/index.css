@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-body{
+/* body{
 background: #141414;
 background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 1) 50%, rgba(33, 33, 31, 1) 100%);
 }
@@ -8,4 +8,4 @@ background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 1) 5
 .Navbar{
     background: #a3a0a0;
 background: linear-gradient(90deg, rgba(163, 160, 160, 1) 0%, rgba(184, 178, 178, 1) 50%, rgba(168, 168, 162, 1) 100%);
-}
+} */

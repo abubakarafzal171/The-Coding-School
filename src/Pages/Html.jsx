@@ -2,7 +2,7 @@ import React from 'react'
 
 const Html = () => {
   return (
-    <div>Html</div>
+    <div className='mt-20 h-screen w-full'>Html</div>
   )
 }
 

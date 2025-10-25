@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='mt-20 h-screen'>
+    <div className='mt-20 h-full md:h-screen'>
       <h1 className='text-2xl text-center md:text-3xl lg:text-4xl font-bold text-blue-600'>Welcome to The Coding School Official Website</h1>
 
       <div className="learn flex items-center justify-center flex-col gap-4 mt-6">

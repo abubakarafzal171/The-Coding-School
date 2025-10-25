@@ -9,3 +9,28 @@ background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 1) 5
     background: #a3a0a0;
 background: linear-gradient(90deg, rgba(163, 160, 160, 1) 0%, rgba(184, 178, 178, 1) 50%, rgba(168, 168, 162, 1) 100%);
 } */
+
+/* ===== Beautiful Sidebar Scrollbar ===== */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6366f1, #8b5cf6);
+  border-radius: 10px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #4f46e5, #7c3aed);
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 10px;
+}
+
+/* Firefox support */
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #8b5cf6 #f3f4f6;
+}

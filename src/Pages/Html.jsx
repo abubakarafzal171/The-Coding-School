@@ -5,7 +5,7 @@ import HtmMain from "../htmlpage/HtmMain";
 import { MenuIcon } from "lucide-react";
 import { X } from "lucide-react";
 const Html = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden"; // stop scroll
